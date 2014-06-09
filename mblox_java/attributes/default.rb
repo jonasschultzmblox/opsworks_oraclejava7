@@ -1,5 +1,5 @@
 #
-# Cookbook Name::mblox-java
+# Cookbook Name::mblox_java
 # Attributes:: default
 #
 # Author:: Jonas Schultz (<jonas.schultz@mblox.com>)
@@ -19,9 +19,9 @@
 # limitations under the License.
 #
 
-default['mblox-java']['package_name'] = 'oracle-jdk7'
-default['mblox-java']['destination']  = '/usr/lib/jvm/java-7-oracle-amd64'
-default['mblox-java']['s3_path']  = 'https://s3.amazonaws.com/opsworksbucket/'
-default['mblox-java']['s3_file']  = 'jdk-7u55-linux-x64.rpm'
+default['mblox_java']['package_name'] = 'oracle-jdk7'
+default['mblox_java']['destination']  = '/usr/lib/jvm/java-7-oracle-amd64'
+default['mblox_java']['s3_path']  = 'https://s3.amazonaws.com/opsworksbucket/'
+default['mblox_java']['s3_file']  = 'jdk-7u55-linux-x64.rpm'
 
 
